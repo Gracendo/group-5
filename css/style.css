@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html, body, .login-form, .body-container, .bp-form {
+    background: #263238!important;
+}
+
+/********** index.php **********/
+.form-login {
+    max-width: 500px;
+    /* padding: 19px 29px 29px; */
+    margin: 0 auto; margin-top: 90px;
+    background-color: #fff;
+    margin-right: 0;
+
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #990000;
+    font-weight: lighter;
+}
+
+.form-login .form-login-header {
+    color: #00A2D1;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.login-form, .body-container {
+/ / border: solid red 1 px;
+    margin-top: 220px;
+}
+
+.navbar-brand {
+    font-family: "Lucida Handwriting", Roboto;
+}
+
+#btn-submit {
+    height: 45px;
+}
+
+.h5 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*******************************/
+
+/*** PHP Show Best Practises ***/
+#btn-showbp {
+    font-size: xx-large;
+    width: 100%;
+    margin-left: 0;
+}
+
+#btn-bp {
+    font-size: xx-large;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    display: none;
+}
+
+#btn-bp:hover {
+    cursor: default;
+}
+
+#div-bp {
+    position: absolute;
+    margin-top: 6%;
+    width: 500px;
+    text-align: center;
+}
+
+/*******************************/
+
+/********** home.php ***********/
+#div-users-list {
+    margin: 30px;
+}
+
+#home-body {
+    background: #263238;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#home-title {
+    font-family: inherit;
+    margin-left: 30px;
+}
+
+#form-modify-user {
+    padding: 30px 60px 30px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #e5e5e5;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+
+    font-family: Roboto, Tahoma, Geneva, sans-serif;
+    font-size: 1.5em;
+}
+
+#div-modify-user-btns {
+    margin-top: 50px;
+}
+
+#alert-success, #alert-mod-user-error {
+    display: none;
+}
+
+#alert-success{
+    margin: 30px;
+}
+
+#div-modify-user-title {
+    padding: 25px 60px 16px;
+    margin-top: 30px;
+    background: #17a3b8;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#alert-mod-user-error {
+    font-size: 20px;
+}
+
+#btn-adduser {
+    height: 75px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*******************************/
+
+/******** restricted.php *******/
+#home-body-res{
+    margin: 50px 30px;
+}
+#readme{
+    margin: 20px 60px;
+}
+#readme-code{
+    color: #ffffff;
+    background: #263238;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.decl{
+    color: #d81b60;
+}
+.variable{
+    color: #00bcd4;
+}
+.string{
+    color: #f4511e;
+}
+/*******************************/
+
